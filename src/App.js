@@ -1,11 +1,18 @@
 import "./App.css";
-import P5Canvas from "./P5Canvas";
-function App() {
+import Noise1 from "./Noise1";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+const App = () => {
   return (
-    <div className="App">
-      <P5Canvas />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/noise1" element={<Noise1 />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

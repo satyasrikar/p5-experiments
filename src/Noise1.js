@@ -14,7 +14,7 @@ let maxAmplitude = 0.5;
 // This is an alternative to p5.js builtin 'noise' function,
 // It provides 4D noise and returns a value between -1 and 1
 const simplex = new SimplexNoise();
-const P5Canvas = (props) => {
+const Noise1 = (props) => {
   const setup = (p5, canvasParentRef) => {
     p5.createCanvas(canvasWidth, canvasHeight).parent(canvasParentRef);
     p5.mouseX = canvasWidth / 2;
@@ -104,4 +104,4 @@ const P5Canvas = (props) => {
   return <Sketch setup={setup} draw={draw} />;
 };
 
-export default P5Canvas;
+export default Noise1;
