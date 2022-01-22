@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# n1rvana's Generative Art
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Generative Art experiments using p5.js and React.
 
-## Available Scripts
+### Tech Used
+
+- ReactJS - HTML enhanced for web apps!
+- react-router - awesome web-based text editor
+- P5JS - Library for creative coding projects for artists, designers and engineers
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+MIT
