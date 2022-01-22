@@ -2,13 +2,16 @@ import "./App.css";
 import Noise1 from "./Noise1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import Grid1 from "./Grid1";
 const App = () => {
   return (
     <Router>
       <div className="App">
+        <Home />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/noise1" element={<Noise1 />}></Route>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/noise1" element={<Noise1 />}></Route>
+          <Route exact path="/grid1" element={<Grid1 />}></Route>
         </Routes>
       </div>
     </Router>
