@@ -24,7 +24,7 @@ const Grid1 = (props) => {
     p5.strokeWeight(dim * 0.0075);
 
     // # of elements we wish to draw
-    const count = 5;
+    const count = 9;
 
     // Margin from edge of screen
     const margin = dim * 0.2;
@@ -44,7 +44,7 @@ const Grid1 = (props) => {
       const x = p5.lerp(margin, canvasWidth - margin, t);
 
       // The y position is centred vertically
-      const y = canvasHeight / 2;
+      const y = p5.lerp(margin, canvasHeight - margin, t);
 
       p5.ellipse(x, y, diameter, diameter, 0, p5.PI * 2);
     }

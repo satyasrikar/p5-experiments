@@ -7,7 +7,6 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <Home />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/noise1" element={<Noise1 />}></Route>
