@@ -1,8 +1,8 @@
 import "./App.css";
 import Noise1 from "./Noise1";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
 import Grid1 from "./Grid1";
+import Home from "./Home";
 const App = () => {
   return (
     <Router>
