@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <div className="flex justify-center items-center">
+        <div className="h-screen flex justify-center items-center">
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/noise1" element={<Noise1 />}></Route>
